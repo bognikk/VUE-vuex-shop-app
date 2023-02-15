@@ -43,7 +43,7 @@ li {
 	padding: 1rem;
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 	text-align: center;
-	max-width: 25rem;
+	border-radius: 12px;
 
 	img {
 		width: 5rem;

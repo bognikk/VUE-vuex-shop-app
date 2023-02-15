@@ -33,6 +33,9 @@ export default {
 		isLoggedIn() {
 			return this.$store.getters.isAuthenticated;
 		},
+		currentRouteName() {
+			return this.$route.name;
+		},
 	},
 	methods: {
 		login() {
@@ -40,6 +43,9 @@ export default {
 		},
 		logout() {
 			this.$store.dispatch('logout');
+			if (this.$route.path === '/admin') {
+				this.$router.push('/');
+			}
 		},
 	},
 };

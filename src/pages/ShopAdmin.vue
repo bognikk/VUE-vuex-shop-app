@@ -10,8 +10,8 @@ section {
 	max-width: 40rem;
 	padding: 2rem;
 	margin: 3rem auto;
-	border: 1px solid #ccc;
 	border-radius: 12px;
 	text-align: center;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 </style>
